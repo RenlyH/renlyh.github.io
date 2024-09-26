@@ -10,13 +10,12 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Xinhai Hou (Renly)</p>
-    <p>AI & Medicine Researcher </p>
-    <p>PhD Student @ UofM</p>
+    <p>PhD Candidate @ UofM</p>
     <p>Email: xinhaih@umich.edu</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am currently a Ph.D. candidate major in Bioinformatics and Scientific Computing at University of Michigan, Ann Arbor, co-advised [Dr. Todd Hollon](https://scholar.google.com/citations?user=37OCG3gAAAAJ&hl=en) and [Dr. Brian Athey](https://medicine.umich.edu/dept/psychiatry/brian-d-athey-phd). Previously I received a M.S. in Bioinformatics at the University of Michigan and B.S. in statistics at the Chines Universiyt of Hong Kong, Shenzhen.
