@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I got MICDE fellow.
+I am glad to be selected as 2024-2025 [MICDE fellow](https://micde.umich.edu/micde-fellows-information/).
