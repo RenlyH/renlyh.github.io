@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  
+subtitle:
 
 profile:
   align: right
@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 [[Curriculum Vitae](../assets/pdf/xinhaihou_umich.pdf)]
 
-I currently am a Ph.D. candidate in Bioinformatics and Scientific Computing at the University of Michigan, Ann Arbor, where I am co-advised by [Dr. Todd Hollon](https://scholar.google.com/citations?user=37OCG3gAAAAJ&hl=en) and [Dr. Brian Athey](https://medicine.umich.edu/dept/psychiatry/brian-d-athey-phd). I hold an M.S. in Bioinformatics from the University of Michigan and a B.S. in Statistics from the Chinese University of Hong Kong, Shenzhen.
+I am currently a Ph.D. candidate in Bioinformatics and Scientific Computing at the University of Michigan, Ann Arbor, where I am co-advised by [Dr. Todd Hollon](https://scholar.google.com/citations?user=37OCG3gAAAAJ&hl=en) and [Dr. Brian Athey](https://medicine.umich.edu/dept/psychiatry/brian-d-athey-phd). I hold an M.S. in Bioinformatics from the University of Michigan and a B.S. in Statistics from the Chinese University of Hong Kong, Shenzhen.
 
 My research focuses on self-supervised learning, computer vision, and multimodal machine learning, with a particular emphasis on real-world applications such as AI in healthcare and medicine. Currently, I am working on integrating multimodal data (vision, genomic, language) to improve patient survival prediction models.
 
