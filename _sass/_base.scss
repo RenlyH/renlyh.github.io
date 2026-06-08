@@ -706,8 +706,11 @@ footer.sticky-bottom {
         }
 
         .award {
-          color: var(--global-theme-color) !important;
+          color: white !important;
+          font-weight: bold;
+          background-color: var(--global-theme-color);
           border: 1px solid var(--global-theme-color);
+          cursor: default;
         }
       }
 
@@ -743,7 +746,7 @@ footer.sticky-bottom {
       }
 
       .links {
-        a.btn {
+        a.btn, span.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
@@ -751,6 +754,7 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          font-size: 0.75rem;
 
           &:hover {
             color: var(--global-theme-color);

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Hierarchical Discriminative (HiDisc) Learning Improves Visual Representations of Biomedical Microscopy](https://mlins.org/hidisc/) was accepted and got highlight in CVPR 2023.
+Our paper [Hierarchical Discriminative (HiDisc) Learning Improves Visual Representations of Biomedical Microscopy](https://hidisc.mlins.org) was accepted as <span style="background-color: #74c0fc; color: white; font-weight: bold; padding: 0.1em 0.4em; border-radius: 0.25em;">HIGHLIGHT</span> in CVPR 2023.
