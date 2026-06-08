@@ -7,3 +7,31 @@
 
 "Vision":
   color: "#009f36"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  image: cvpr.png
+  max_height: 35px
+
+"AAAI":
+  url: https://aaai.org/
+  image: aaai.svg
+
+"Nature":
+  url: https://www.nature.com/
+  image: nature.svg
+  max_height: 35px
+
+"NeurIPS AIM-FM":
+  url: https://neurips.cc/
+  image: neurips.svg
+  max_height: 75px
+
+"NeurIPS D&B":
+  url: https://neurips.cc/
+  image: neurips.svg
+  max_height: 75px
+
+"MBoC":
+  url: https://www.molbiolcell.org/
+  image: mboc.svg

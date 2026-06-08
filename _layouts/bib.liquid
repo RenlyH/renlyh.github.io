@@ -2,9 +2,19 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-4 abbr">
       {%- if entry.abbr -%}
-        {%- if site.data.venues[entry.abbr] -%}
+        {%- if site.data.venues[entry.abbr].image -%}
+          {% assign venue_img_path = site.data.venues[entry.abbr].image | prepend: '/assets/img/publication_preview/' | relative_url %}
+          {% assign venue_max_height = site.data.venues[entry.abbr].max_height | default: '45px' %}
+          {% if site.data.venues[entry.abbr].url %}
+            <a href="{{site.data.venues[entry.abbr].url}}">
+              <img class="rounded w-100" style="max-height: {{ venue_max_height }}; object-fit: contain; margin-bottom: 0.5rem;" src="{{ venue_img_path }}" alt="{{ entry.abbr }}">
+            </a>
+          {% else %}
+            <img class="rounded w-100" style="max-height: {{ venue_max_height }}; object-fit: contain; margin-bottom: 0.5rem;" src="{{ venue_img_path }}" alt="{{ entry.abbr }}">
+          {% endif %}
+        {%- elsif site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
@@ -27,7 +37,7 @@
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
@@ -35,7 +45,7 @@
             loading="eager"
             path=entry_path
             sizes = "200px"
-            class="preview z-depth-1 rounded"
+            class="preview rounded"
             zoomable=true
             alt=entry.preview
           %}
@@ -45,7 +55,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-6{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
