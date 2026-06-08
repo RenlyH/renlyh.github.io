@@ -36,6 +36,10 @@
   url: https://www.molbiolcell.org/
   image: mboc.svg
 
+"ICML":
+  url: https://icml.cc/
+  image: icml.png
+
 "TMLR":
   url: https://jmlr.org/tmlr/
   image: tmlr.png
