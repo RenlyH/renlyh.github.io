@@ -35,3 +35,25 @@
 "MBoC":
   url: https://www.molbiolcell.org/
   image: mboc.svg
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  image: tmlr.png
+  max_height: 75px
+
+"NOA":
+  url: https://academic.oup.com/noa
+  image: neuro_oncology_advances.png
+
+"npj Digit. Med.":
+  url: https://www.nature.com/npjdigitalmed/
+  image: npj_digital_medicine.png
+
+"STAR Protoc.":
+  url: https://www.cell.com/star-protocols/home
+  image: star_protocols.png
+
+"Nat. BME":
+  url: https://www.nature.com/natbiomedeng/
+  image: nBME.jpg
+  max_height: 75px
